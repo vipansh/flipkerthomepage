@@ -2,7 +2,6 @@ import React from "react";
 // import logo from "../flipkart-plus";
 
 export const Navbar = () => {
-  const [search, setSearch] = React.useState();
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex justify-between p-5 flex-col md:flex-row items-center">

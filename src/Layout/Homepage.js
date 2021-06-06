@@ -4,7 +4,7 @@ import { Filters } from "../components/Filters";
 import { Navbar } from "../components/Navbar";
 import { ProductPage } from "../components/ProductPage";
 import { Subcategories } from "../components/Subcategories";
-const data = require('../data.json');
+const data = require("../data.json");
 export const Homepage = () => {
   const [productList, setProductList] = useState();
   const [filterByIdealFor, setfilterByIdealFor] = useState();
@@ -22,16 +22,15 @@ export const Homepage = () => {
   //   "size": [],
   //   "minor_details":null,
   //   "extra_offers" : null
-
   useEffect(() => {
     let tempData = [...data];
     // filter the array based on ideal
     if (filterByIdealFor) {
       tempData = tempData.filter((a) => {
         if (a.is_for.includes(filterByIdealFor)) {
-          console.log(a);
           return a;
         }
+        return [];
       });
     }
     // filter the array based on brand
@@ -40,6 +39,7 @@ export const Homepage = () => {
         if (a.made_by === filterByBrand) {
           return a;
         }
+        return [];
       });
     }
     // filter the array base on size
@@ -48,12 +48,12 @@ export const Homepage = () => {
         if (a.size.includes(filterBySize)) {
           return a;
         }
+        return [];
       });
     }
     setProductList(tempData);
   }, [filterByIdealFor, filterByBrand, filterBySize]);
 
-  console.log(productList);
   return (
     <div>
       <Navbar />
