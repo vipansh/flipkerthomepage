@@ -24,7 +24,7 @@ export const ProductDisplay = ({ data }) => {
           {data.name.slice(0, 12)}...{" "}
           {data.is_assured && (
             <span>
-              <img className="h-4 inline-block" src={assured} />
+              <img className="h-4 inline-block" src={assured}  alt="assured"/>
             </span>
           )}
         </p>
