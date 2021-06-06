@@ -4,14 +4,12 @@ import { Filters } from "../components/Filters";
 import { Navbar } from "../components/Navbar";
 import { ProductPage } from "../components/ProductPage";
 import { Subcategories } from "../components/Subcategories";
-import data from "../data";
-
+const data = require('../data.json');
 export const Homepage = () => {
   const [productList, setProductList] = useState();
   const [filterByIdealFor, setfilterByIdealFor] = useState();
   const [filterByBrand, setfilterByBrand] = useState();
   const [filterBySize, setfilterBySize] = useState();
-
   //   "is_assured": false,
   //   "id": 1003,
   //   "discount": 80,
@@ -71,7 +69,7 @@ export const Homepage = () => {
             setfilterBySize={setfilterBySize}
           />
         </div>
-        <div className=" rounded-sm border-gray-200 border ">
+        <div className=" rounded-sm border-gray-200 border w-full ">
           {productList && <ProductPage data={productList} />}
         </div>
       </div>
