@@ -26,30 +26,15 @@ export const Homepage = () => {
     let tempData = [...data];
     // filter the array based on ideal
     if (filterByIdealFor) {
-      tempData = tempData.filter((a) => {
-        if (a.is_for.includes(filterByIdealFor)) {
-          return a;
-        }
-        return [];
-      });
+      tempData = tempData.filter((a) => a.is_for.includes(filterByIdealFor));
     }
     // filter the array based on brand
     if (filterByBrand) {
-      tempData = tempData.filter((a) => {
-        if (a.made_by === filterByBrand) {
-          return a;
-        }
-        return [];
-      });
+      tempData = tempData.filter((a) => a.made_by === filterByBrand);
     }
     // filter the array base on size
     if (filterBySize) {
-      tempData = tempData.filter((a) => {
-        if (a.size.includes(filterBySize)) {
-          return a;
-        }
-        return [];
-      });
+      tempData = tempData.filter((a) => a.size.includes(filterBySize));
     }
     setProductList(tempData);
   }, [filterByIdealFor, filterByBrand, filterBySize]);
