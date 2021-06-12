@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Filters } from "../components/Filters";
-import { Navbar } from "../components/Navbar";
 import { ProductPage } from "../components/ProductPage";
 import { Subcategories } from "../components/Subcategories";
 const data = require("../data.json");
@@ -41,7 +40,6 @@ export const Homepage = () => {
 
   return (
     <div>
-      <Navbar />
       <Subcategories />
       <div className="flex my-4">
         <div className="max-w-sm  rounded-sm border-gray-200 border ">

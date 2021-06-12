@@ -24,7 +24,7 @@
     "name": "Striped Men Hooded Neck Red, Black T-Shirt",
     "made_by": "HELMONT",
     "is_for": "Men",
-    "catogeries": "Clothing And Accessories",
+    "catogeries": "United Colors of Benetton",
     "size": ["S", "M", "L"],
     "minor_details": null,
     "extra_offers": null
@@ -53,7 +53,7 @@
       "https://rukminim1.flixcart.com/image/459/551/k1nw9zk0/lehenga-choli/m/9/f/free-trilok-pink-lehenga-01-ashtavinayak-original-imafhe5dezzvhua3.jpeg?q=50",
     "name": "Satin Embroidered, Embellished Gown/Anarkali Kurta & Bottom Material  (Semi Stitched)",
     "made_by": "Sixteen Creation",
-    "is_for": ["Women"],
+    "is_for": "Women",
     "catogeries": "Clothing And Accessories",
     "size": [],
     "minor_details": "Semi Stitched",
@@ -88,6 +88,82 @@
     "size": ["S", "2-3 years"],
     "minor_details": "Red Pack of 2",
     "extra_offers": null
+  },
+  {
+    "is_assured": true,
+    "id": 1007,
+    "discount": 72,
+    "original_cost": 2499,
+    "image":
+      "https://rukminim1.flixcart.com/image/580/696/kirr24w0/jacket/2/z/t/m-m7aw20jkt017b-m7-by-metronaut-original-imafyhejnyxvmnhd.jpeg?q=50",
+    "name": "Full Sleeve Colorblock Men Sports Jacket",
+    "made_by": "New gen",
+    "is_for": "Kids",
+    "catogeries": "Clothing And Accessories",
+    "size":["S", "M", "L"],
+    "minor_details": null,
+    "extra_offers": null
+  },
+  {
+    "is_assured": true,
+    "id": 1008,
+    "discount": 76,
+    "original_cost": 2999,
+    "image":
+      "https://rukminim1.flixcart.com/image/580/696/k3vwxow0/jacket/b/s/m/m-dlrsts003mrn-dillinger-original-imafmx52fghfvhsa.jpeg?q=50",
+    "name": "Full Sleeve Solid Men Bomber Jacket",
+    "made_by": "New gen",
+    "is_for": "Men",
+    "catogeries": "United Colors of Benetton",
+    "size": ["S", "2-3 years"],
+    "minor_details": "Red Pack of 2",
+    "extra_offers": null
+  },
+  {
+    "is_assured": true,
+    "id": 1009,
+    "discount": 62,
+    "original_cost": 2999,
+    "image":
+      "https://rukminim1.flixcart.com/image/580/696/kl9rssw0/jacket/j/v/d/m-76218y-breil-by-fort-collins-original-imagyfhhewfbgng8.jpeg?q=50",
+    "name": "Full Sleeve Solid Men Padded Jacket",
+    "made_by": "New gen",
+    "is_for": "Men",
+    "catogeries": "Clothing And Accessories",
+    "size": ["S", "M"],
+    "minor_details": "Red Pack of 2",
+    "extra_offers": null
+  },
+  {
+    "is_assured": true,
+    "id": 1010,
+    "discount": 72,
+    "original_cost": 1099,
+    "image":
+      "https://rukminim1.flixcart.com/image/580/696/jr0y9ow0/shirt/b/t/w/xl-funfas-0001-funday-fashion-original-imafcwzzmfh8mvx8.jpeg?q=50",
+    "name": "Women Regular Fit Solid Spread Collar Casual Shirt",
+    "made_by": "New gen",
+    "is_for": "Women",
+    "catogeries": "Clothing And Accessories",
+    "size": ["S", "M"],
+    "minor_details": "Red Pack of 2",
+    "extra_offers": null
+  },
+  {
+    "is_assured": false,
+    "id": 1011,
+    "discount": 68,
+    "original_cost": 999,
+    "image":
+      "https://rukminim1.flixcart.com/image/580/696/k0bbb0w0/t-shirt/u/f/u/xs-mtro18-rn-hs-pink-white-revolutionpink-white-metronaut-original-imafk5647gxzygtu.jpeg?q=50",
+    "name": "Printed Women Henley Neck White, Pink T-Shirt",
+    "made_by": "New gen",
+    "is_for": "Women",
+    "catogeries": "Clothing And Accessories",
+    "size": ["S", "M"],
+    "minor_details": null,
+    "extra_offers": null
   }
+
 ]
 

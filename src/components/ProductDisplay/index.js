@@ -1,5 +1,6 @@
 import React from "react";
 import assured from "../../fa.png";
+import { AddBtn } from "../AddToCart/AddBtn";
 export const ProductDisplay = ({ data }) => {
   // is_assured: true,
   // id: 1002,
@@ -16,7 +17,7 @@ export const ProductDisplay = ({ data }) => {
   // extra_offers: null,
 
   return (
-    <div className="w-62 px-8 rounded-sm" style={{ height: "33rem" }}>
+    <div className="w-62 px-8 rounded-sm" style={{ height: "38rem" }}>
       <img src={data.image} style={{ height: "25rem" }} alt={data.name} />
       <div>
         <p>{data.made_by}</p>
@@ -33,6 +34,7 @@ export const ProductDisplay = ({ data }) => {
           <span className="mx-4">{data.discount}% Discount</span>
         </p>
         <p>₹{Math.floor((data.original_cost / 100) * data.discount)}</p>
+        <AddBtn product={data}/>
       </div>
     </div>
   );
