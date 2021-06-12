@@ -119,7 +119,7 @@ export const AddBtn = ({ product }) => {
     }
 
     return (
-        <div>
+        <div className="font-sans">
             <div className={`product-add-button  ${showaddbutton ? "show" : "hide"}`} aria-label="Add Product" onClick={() => { addItem(product) }}>
                 <span className="product-add-btn">ADD </span>
                 <span className="plus-btn" > + </span>

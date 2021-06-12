@@ -41,8 +41,8 @@ export const CartProduct = ({ product }) => {
   }
 
   return (
-    <li className="flex flex-col py-6 sm:flex-row  container mx-auto">
-      <div className="w-1/2 flex justify-start ">
+    <li className="flex flex-col py-6  container mx-auto">
+      <div className="w-full flex justify-start ">
         <img
           src={product.image}
           style={{ height: "25rem", minWidth: "25rem" }}
@@ -90,9 +90,18 @@ export const CartProduct = ({ product }) => {
                 className="flex items-center  p-4 my-4 space-x-1 hover:text-blue-600"
                 onClick={movetoOrder}
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block hover:text-red-600" viewBox="0 0 20 20" fill="currentColor">
-  <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
-</svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 inline-block hover:text-red-600"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                    clipRule="evenodd"
+                  />
+                </svg>
                 <span>Order Now</span>
               </button>
             ) : (

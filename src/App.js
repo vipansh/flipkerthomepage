@@ -9,7 +9,7 @@ import { CartPage } from "./Layout/CartPage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="font-press-start ">
       <Router>
         <CartContaxtProvider>
           <Navbar />
